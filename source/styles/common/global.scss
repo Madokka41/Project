@@ -1,1 +1,43 @@
 /* здесь используйте глобальные селекторы img, body, html и так далее */
+.page__body {
+  background-color: $Grey10;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Barlow", Arial, sans-serif;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.section-margin {
+  max-width: 100rem;
+  margin-left: auto;
+  margin-right: auto;
+  border: solid 1px $Gray15;
+}
+
+.section-margin + .section-margin {
+  border-top: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.bg-pattern {
+  background-image: url("/images/HeroSectionPattern.png");
+}

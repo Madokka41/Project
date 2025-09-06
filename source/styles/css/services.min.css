@@ -1,0 +1,15 @@
+.services {
+  padding-top: 7.5rem;
+  padding-bottom: 7.5rem;
+}
+
+.services__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 0.88rem;
+}
+
+.section__title {
+  font-weight: 600;
+  font-size: 3rem;
+}/*# sourceMappingURL=services.min.css.map */

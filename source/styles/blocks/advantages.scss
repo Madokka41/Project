@@ -1,0 +1,31 @@
+.advantages__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.advantages__item {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+}
+.advantages__item:nth-child(2n) {
+  border-left: solid 1px $Gray15;
+}
+.advantages__item:nth-child(1),
+.advantages__item:nth-child(2) {
+  border-bottom: solid 1px $Gray15;
+}
+.advantages-text__wrapper {
+  display: flex;
+  gap: 1.25rem;
+  align-items: center;
+}
+.advantages__title {
+  color: $AbsoluteWhite;
+  font-size: 1.625rem;
+  line-height: 1.5;
+  letter-spacing: -1.5px;
+}
+.advantages-text {
+  text-align: left;
+}

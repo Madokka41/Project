@@ -1,0 +1,32 @@
+.button {
+  padding: 1.15rem 1.75rem;
+  border-radius: 0.5rem;
+  text-decoration: none;
+  font-weight: 500;
+  line-height: 1.5;
+  display: block;
+  width: fit-content;
+  font-size: 1.125rem;
+}
+.poison-button-header {
+  padding: 1rem 1.5rem;
+  background-color: $Green50;
+  color: $Gray15;
+}
+.dark-button {
+  border: solid 1px $Grey20;
+  backdrop-filter: $Blur;
+  background-color: $DarkBlur;
+  color: $AbsoluteWhite;
+}
+.poison-button {
+  background-color: $Green50;
+  color: $Gray15;
+}
+.gray-button {
+  background-color: $Gray15;
+  color: $AbsoluteWhite;
+  width: 100%;
+  padding: 1.1rem 1rem;
+  text-align: center;
+}

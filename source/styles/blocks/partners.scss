@@ -1,0 +1,41 @@
+.partners {
+  background-color: $DarkBlur;
+  position: relative;
+}
+.partners__list {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  gap: 1.25rem;
+  padding-top: 2.5rem;
+  padding-bottom: 2.5rem;
+}
+.partners__item {
+  max-width: 15.5rem;
+  height: 5.5rem;
+  width: 100%;
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.25rem 2.5rem;
+  & img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+}
+.partners__description {
+  font-size: 1.125rem;
+  padding: 1.25rem 2.1rem;
+  display: block;
+  width: fit-content;
+  color: $Green99;
+  border: solid 1px $Gray15;
+  background-color: $Grey10;
+  border-radius: 6rem;
+  position: absolute;
+  left: 50%;
+  transform: translatex(-50%);
+  top: -1.94rem;
+}
